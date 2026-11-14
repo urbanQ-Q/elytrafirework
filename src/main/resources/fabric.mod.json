@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "elytraboost",
+  "version": "${version}",
+  "name": "Elytra Boost Backport",
+  "description": "Backport mechaniki z 1.21.6 (client-side): fajerwerk przyspiesza elytrę nawet gdy celujesz w blok.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["elytraboost.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
